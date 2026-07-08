@@ -1,0 +1,15 @@
+# Credenciais — nunca publicar
+config/api_keys.txt
+config/utilizadores.txt
+config/config.php
+raspberry/rede_pi.txt
+
+# Dados em tempo real — gerados automaticamente pelo sistema
+api/files/*/valor.txt
+api/files/*/hora.txt
+api/files/*/log.txt
+api/files/*/nome.txt
+
+# Fotos capturadas pela câmara
+api/images/hist/*.jpg
+api/images/hist/indice.txt

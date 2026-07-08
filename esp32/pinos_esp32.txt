@@ -1,0 +1,32 @@
+SecureNode — Mapa de Pinos ESP32
+==================================
+
+SENSORES
+--------
+KY-037 Som  (AO)  → GPIO 34  (pino físico 6  — lado direito)
+KY-026 Fogo (DO)  → GPIO 27  (pino físico 11 — lado esquerdo)
+
+ATUADORES
+---------
+KY-016 LED RGB
+  R               → GPIO 25  (pino físico 10 — lado esquerdo)
+  G               → GPIO 26  (pino físico 11 — lado esquerdo)  ← ATENÇÃO: mesmo lado do fogo
+  B               → GPIO 32  (pino físico 8  — lado esquerdo)
+
+KY-019 Relé
+  IN              → GPIO 33  (pino físico 9  — lado esquerdo)
+
+ALIMENTAÇÃO (todos os módulos)
+------------------------------
+VCC / +           → 3.3V do ESP32
+GND / -           → GND do ESP32
+
+API KEY
+-------
+(definir em vigilancia.ino — variável API_KEY)
+
+REDE
+----
+SSID     : (definir em vigilancia.ino — variável SSID)
+Password : (definir em vigilancia.ino — variável PASSWORD)
+API URL  : (definir em vigilancia.ino — variável API_URL)

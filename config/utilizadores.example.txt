@@ -1,0 +1,3 @@
+admin@vigilancia.pt|$2y$10$HASH_BCRYPT_AQUI|admin
+operador@vigilancia.pt|$2y$10$HASH_BCRYPT_AQUI|operador
+visitante@vigilancia.pt|$2y$10$HASH_BCRYPT_AQUI|visitante

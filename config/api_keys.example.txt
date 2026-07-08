@@ -1,0 +1,2 @@
+chave-raspberry|Raspberry Pi
+chave-esp32|ESP32 NodeMCU
